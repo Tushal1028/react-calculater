@@ -1,0 +1,47 @@
+.outer{
+  height: 550px;
+  width: 400px;
+  border: 6px solid rgb(34, 131, 211);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 10px;
+}
+.cal{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  /* border: 2px solid green; */
+}
+.dis{
+  height: 25%;
+  width: 100%;
+  border-bottom: 4px solid rgb(255, 255, 255);
+}
+.numpad{
+  height: 75%;
+  width: 100%;
+  /* border: 2px solid blueviolet; */
+}
+.numpad table{
+  height: 100%;
+  width: 100%;
+}
+
+.numpad table button{
+  height: 100%;
+  width: 100%;
+  font-size: 28px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: rgb(1, 1, 255);
+  border-radius: 50px;
+  color: white;
+  font-weight: 480;
+}
+
+.dis h1{
+  font-size: 64px;
+}
